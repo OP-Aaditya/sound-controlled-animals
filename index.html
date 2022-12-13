@@ -1,0 +1,35 @@
+<html>
+    <head>
+<title>
+    animals
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+<div  class="col-xs-12 header_div text-center">
+<h2 style="color:azure;font-weight:bold;font-size:40px;">SOUND CONTROLLED ANIMALS</h2>
+<p style="color:whitesmoke;font-weight:600;">Note: Play sounds like bark, meowing</p>
+</div>
+<center>
+<div  style="padding:18px;background-color:lightgray;"  class="main-div col-xs-12 ">     
+<button class="btn btn-info "  style="font-size:20px;" onclick="startClassification()" > START </button>
+
+<h4 id="detect"></h4>
+<h3 id="i_can"> </h3>
+<h3 id="accuracy"></h3>
+
+
+<img src="listen.gif" id="listen" width="300" height="300">
+</div>
+<div class="copy_right_footer col-xs-12" >
+Developed by - Aaditya Sharma
+</center>
+<script src="main.js"></script>
+    </body>
+</html>
